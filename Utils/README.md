@@ -140,8 +140,9 @@ Lima file SAS XPT dari NHANES 2017-2018, unduh dari [CDC NHANES](https://wwwn.cd
 ### 1. Clone repositori dan install dependensi
 
 ```powershell
-git clone https://github.com/fbrianzy/DepreScan-Utils.git
-cd DepreScan-Utils
+git clone https://github.com/DepreScanAI/DataScientist.git
+cd DataScientist
+cd Utils
 ```
 
 ### 2. Buat Virtual Environment agar tidak crash antar dependesi library utama dengan library project
