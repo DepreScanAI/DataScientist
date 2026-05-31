@@ -57,7 +57,7 @@ Siklus ini adalah siklus terakhir yang menggunakan format kuesioner PHQ-9 lengka
 | 2013-2014 | Ya | 10.175 | Tersedia |
 | 2015-2016 | Ya | 9.971 | Tersedia |
 | **2017-2018** | **Ya** | **9.254** | **Terpilih, Pre-COVID** |
-| 2019-2020 | Terbatas | ~4.000 | Terdisrupsi COVID |
+| 2019-2020 | Terbatas | 4.000 | Terdisrupsi COVID |
 | 2021-2023 | Format Berbeda | N/A | Metodologi berubah |
 
 **Live Demo:** [deprescan-dashboard.streamlit.app](https://deprescan-dashboard.streamlit.app/)
@@ -134,7 +134,7 @@ DataScientist/
 |       `-- json/                        # Metadata pipeline
 |
 `-- Dashboard/                           # Dashboard analitik interaktif
-    |-- dashboard_nhanes_Final.py        # Entry point dashboard (~2.160 baris)
+    |-- dashboard_nhanes_Final.py        # Entry point dashboard (2.160 baris)
     |-- Final_Data.csv                   # Dataset input (5.088 baris x 78 kolom)
     |-- requirements.txt
     `-- README.md
@@ -607,7 +607,7 @@ Dashboard akan terbuka otomatis di browser pada `http://localhost:8501`.
 
 ## Arsitektur Kode Dashboard
 
-Seluruh kode berada dalam `dashboard_nhanes_Final.py` (~2.160 baris) yang diorganisasi menjadi blok-blok berikut:
+Seluruh kode berada dalam `dashboard_nhanes_Final.py` (2.160 baris) yang diorganisasi menjadi blok-blok berikut:
 
 ```
 +---------------------------------------------------------------------+
