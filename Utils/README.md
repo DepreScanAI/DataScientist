@@ -464,20 +464,22 @@ Delapan uji hipotesis menggunakan Mann-Whitney U (non-parametrik, karena PHQ-9 t
 
 Dashboard Streamlit dibangun dalam **repositori terpisah** oleh tim Data Scientist. Dashboard menampilkan seluruh analisis secara interaktif dengan 5 halaman: **Overview, Demografi, Depresi, Gaya Hidup** dan **Pertanyaan Bisnis**.
 
-> 🔗 **Repository Dashboard:** [Utils DepreScan-Dashboad](https://github.com/FaishalBayuPratama/DepreScan-Dashboard.git)
+> 🔗 **Repository Dashboard:** [Utils DepreScan-Dashboad](https://github.com/DepreScanAI/DataScientist/tree/main/Dashboard)
 >
 > 🌐 **Live Demo (Streamlit Cloud):** [Deprescan-Dashboard](https://deprescan-dashboard.streamlit.app/)
 
 Tampilan utama Dashboard DepreScan
 
-<img src="./assets/overview-dashboard.png" alt="Overview Dashboard" width="100%" href="https://deprescan-dashboard.streamlit.app/">
-
+<a href="https://deprescan-dashboard.streamlit.app/">
+  <img src="./assets/overview-dashboard.png" alt="Overview Dashboard" width="100%" href="https://deprescan-dashboard.streamlit.app/">
+</a>
 **Cara menjalankan dashboard secara lokal:**  
 
 1. Clone Repository lalu masuk ke dalam folder Dashboard
 ```powershell
-git clone https://github.com/FaishalBayuPratama/DepreScan-Dashboard.git
-cd DepreScan-Dashboard
+git clone https://github.com/DepreScanAI/DataScientist.git
+cd DataScientist
+cd Dashboard
 ```
 
 2. Buat Virtual Environment untuk Dashboard
