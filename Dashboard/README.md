@@ -41,14 +41,14 @@ Dashboard ini merupakan komponen **frontend analitik** dari proyek DepreScan, ya
 Pemisahan antara pipeline (`deprescan-data-science`) dan dashboard (`DepreScan-Dashboard`) mengikuti prinsip *separation of concerns* pipeline dapat dijalankan ulang untuk update dataset tanpa menyentuh kode visualisasi, dan sebaliknya.
 
 > 🔗 **Live Demo:** [deprescan-dashboard.streamlit.app](https://deprescan-dashboard.streamlit.app/)  
-> 📦 **Pipeline Repo:** [fbrianzy/DepreScan-Utils](https://github.com/fbrianzy/DepreScan-Utils)
+> 📦 **Pipeline Repo:** [DataScientist/Utils](https://github.com/DepreScanAI/DataScientist/tree/main/Utils)
 
 ---
 
 ## Struktur Repositori
 
 ```
-DepreScan-Dashboard/
+DataScientist/Dashboard/
 │
 ├── dashboard_nhanes_Final.py    # Entry point seluruh kode dashboard (~2.160 baris)
 ├── Final_Data.csv               # Dataset input (5.088 baris × 78 kolom)
@@ -88,8 +88,9 @@ pip install -r requirements.txt
 ### 1. Clone repositori
 
 ```bash
-git clone https://github.com/FaishalBayuPratama/DepreScan-Dashboard.git
-cd DepreScan-Dashboard
+git https://github.com/DepreScanAI/DataScientist.git
+cd DataScientist
+cd Dashboard
 ```
 
 ### 2. Install dependensi
@@ -101,7 +102,7 @@ pip install -r requirements.txt
 ### 3. Pastikan `Final_Data.csv` ada di direktori yang sama
 
 ```
-DepreScan-Dashboard/
+DataScientist/Dashboard/
 ├── dashboard_nhanes_Final.py
 └── Final_Data.csv               ← wajib ada di sini
 ```
@@ -138,11 +139,11 @@ Seluruh kode berada dalam `dashboard_nhanes_Final.py` (~2.160 baris) yang diorga
 │  5. HELPER FUNCTIONS              (baris 142-276)                   │
 │  6. SIDEBAR & FILTERS             (baris 278-355)                   │
 │  7. PAGE FUNCTIONS                (baris 358-2133)                  │
-│     ├── render_top10_heatmap()                                       │
-│     ├── page_overview()                                              │
-│     ├── page_demography()                                            │
-│     ├── page_depression()                                            │
-│     ├── page_lifestyle()                                             │
+│     ├── render_top10_heatmap()                                      │
+│     ├── page_overview()                                             │
+│     ├── page_demography()                                           │
+│     ├── page_depression()                                           │
+│     ├── page_lifestyle()                                            │
 │     └── page_business()                                             │
 │  8. MAIN ENTRYPOINT               (baris 2137-2158)                 │
 └─────────────────────────────────────────────────────────────────────┘
@@ -568,7 +569,7 @@ Dashboard diakhiri dengan 6 kartu temuan untuk keputusan pengembangan produk:
 
 ## Dataset
 
-**Input:** `Final_Data.csv` output langsung dari pipeline [DepreScan-Utils](https://github.com/fbrianzy/DepreScan-Utils)
+**Input:** `Final_Data.csv` output langsung dari pipeline [DepreScan-Utils](https://github.com/DepreScanAI/DataScientist/tree/main/Utils)
 
 | Properti | Nilai |
 |----------|-------|
