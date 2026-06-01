@@ -17,7 +17,7 @@
 | 3c | &nbsp;&nbsp;&nbsp; Cleaning Data - Membersihkan dan mempersiapkan data | ✅ | [`src/preproc/clean.py`](./src/preproc/clean.py) - 5 fungsi `clean_*` per modul (DEMO, DPQ, ALQ, PAQ, SLQ) |
 | 4 | Melakukan Exploratory Data Analysis (EDA) untuk mendapatkan insight dari data | ✅ | [`src/features/eda.py`](./src/features/eda.py) - 7 visualisasi di [`outputs/plot/`](./outputs/plot/) |
 | 5 | Membuat visualisasi data dan melakukan explanatory analysis untuk menjawab pertanyaan bisnis | ✅ | README § Visualisasi Output (8 plot) + tabel A/B Testing dengan p-value & effect size |
-| 6 | Mengembangkan dashboard interaktif menggunakan Streamlit untuk menampilkan insight dan kesimpulan | ✅ | [DepreScan-Dashboard](https://github.com/DepreScanAI/DataScientist/main/Dashboard) - 5 halaman, live di [deprescan-dashboard.streamlit.app](https://deprescan-dashboard.streamlit.app/) |
+| 6 | Mengembangkan dashboard interaktif menggunakan Streamlit untuk menampilkan insight dan kesimpulan | ✅ | [DepreScan-Dashboard](https://github.com/DepreScanAI/DataScientist/tree/main/Dashboard) - 5 halaman, live di [deprescan-dashboard.streamlit.app](https://deprescan-dashboard.streamlit.app/) |
 | 7 | Memastikan data sudah siap diproses oleh model | ✅ | [`data/processed/nhanes_model_ready.csv`](./data/processed/) - 5.088 × 73 fitur + 4 target, bebas data leakage |
 | 7a | &nbsp;&nbsp;&nbsp; (Disarankan) Membuat Data Dictionary | ✅ | [`outputs/json/pipeline_metadata.json`](./outputs/json/) - daftar lengkap `feature_cols`, `target_cols`, distribusi kelas |
 
