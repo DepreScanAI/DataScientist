@@ -77,7 +77,7 @@ Siklus ini adalah siklus terakhir yang menggunakan format kuesioner PHQ-9 lengka
 | 7. Dashboard Deployment | selesai |
 | 8. Comprehensive Technical Report | selesai |
 
-Detail lengkap: lihat [CHECKLIST_STATUS.md](./Utils/CHECKLIST_STATUS.md)
+Detail lengkap: lihat [CHECKLIST_STATUS.md](./CHECKLIST_STATUS.md)
 
 ---
 
