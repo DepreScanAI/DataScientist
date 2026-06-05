@@ -30,7 +30,7 @@
 | 1 | Melakukan Feature Engineering untuk menghasilkan fitur yang lebih informatif bagi model | ✅ | [`src/features/feature_engineering.py`](./src/features/feature_engineering.py) - 8 fitur interaksi lintas domain (`SLEEP_X_INACTIVE`, `LONELINESS_PROXY`, `TOTAL_RISK_COMPOSITE`, dll.) + 4 modul fitur domain (`demographics`, `alcohol`, `activity`, `sleep`) |
 | 2 | Melakukan deployment dashboard ke Streamlit Cloud agar dapat diakses secara publik | ✅ | Live demo: [deprescan-dashboard.streamlit.app](https://deprescan-dashboard.streamlit.app/) |
 | 3 | Mengimplementasikan A/B Testing menggunakan Python | ✅ | [`src/experiments/ab_testing.py`](./src/experiments/ab_testing.py) - 8 uji (Mann-Whitney U + Chi-square), hasil di [`outputs/abtest/`](./outputs/abtest/) |
-| 4 | Membuat laporan teknis komprehensif mulai dari tahap Problem Discovery hingga hasil akhir dalam format PDF | ✅ | `On Progress` - 40 halaman, mencakup Problem Discovery, Data Wrangling, Feature Engineering, EDA, A/B Testing, Dashboard, Kesimpulan |
+| 4 | Membuat laporan teknis komprehensif mulai dari tahap Problem Discovery hingga hasil akhir dalam format PDF | ✅ | [Laporan Teknis Komprehensif Data Scientist](./Laporan%20Teknis%20Komprehensif%20Data%20Scientist%20-%20CC26-PSU066.pdf) - 40 halaman, mencakup Problem Discovery, Data Wrangling, Feature Engineering, EDA, A/B Testing, Dashboard, Kesimpulan |
 
 ---
 
